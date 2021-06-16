@@ -7,7 +7,8 @@ public class App
     public static void main( String[] args )
     {
 
-         //1111创建连接，连接redis服务器111
+         //创建连接，连接redis服务器
+        //6666
         Jedis jedis=new Jedis("127.0.0.1",6379);
         jedis.flushAll();
         //ewwwweeedd
